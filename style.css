@@ -1,1 +1,36 @@
 body {background-color: #1e1e1e;}
+
+.crossword {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 0px; /* Adjust the margin-bottom as needed */
+  }
+
+.custom-heading {
+    font: 1.5em Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 204, 0);
+}
+
+.square-input {
+    width: 100px; 
+    height: 100px; 
+    box-sizing: border-box; 
+    background-color: #ffcc00;
+
+    /* Font */
+    font: 3em Helvetica;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+  }
+
+  .blocked-input {
+    width: 100px; 
+    height: 100px; 
+    box-sizing: border-box; 
+    background-color: #272727;
+  }
