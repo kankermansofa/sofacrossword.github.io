@@ -19,19 +19,19 @@ function rows() {
     row4 = "";
     row5 = "";
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < rowAns.length(); i++) {
         row1 += document.getElementById("0" + String(i)).value.toLowerCase();
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < rowAns.length(); i++) {
         row2 += document.getElementById("1" + String(i)).value.toLowerCase();
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < rowAns.length(); i++) {
         row3 += document.getElementById("2" + String(i)).value.toLowerCase();
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < rowAns.length(); i++) {
         row4 += document.getElementById("3" + String(i)).value.toLowerCase();
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < rowAns.length(); i++) {
         row5 += document.getElementById("4" + String(i)).value.toLowerCase();
     }
 }
@@ -43,19 +43,19 @@ function cols() {
     col4 = "";
     col5 = "";
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < colAns.length(); i++) {
         col1 += document.getElementById(String(i) + "0").value.toLowerCase();
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < colAns.length(); i++) {
         col2 += document.getElementById(String(i) + "1").value.toLowerCase();
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < colAns.length(); i++) {
         col3 += document.getElementById(String(i) + "2").value.toLowerCase();
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < colAns.length(); i++) {
         col4 += document.getElementById(String(i) + "3").value.toLowerCase();
     }
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < colAns.length(); i++) {
         col5 += document.getElementById(String(i) + "4").value.toLowerCase();
     }
 }
