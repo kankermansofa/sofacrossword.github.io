@@ -18,8 +18,9 @@ body {background-color: #1e1e1e;}
     height: 100px; 
     box-sizing: border-box; 
     background-color: #ffcc00;
-    margin: 1px;
-    border: none;
+    margin: 0px;
+    border-style: solid;
+    border-color: white;    
     transition-duration: 0.4s;
     
     /* Font */
@@ -38,9 +39,10 @@ body {background-color: #1e1e1e;}
     height: 100px; 
     box-sizing: border-box; 
     background-color: #272727;
-    margin: 1px;
-    border: none;
-  }
+    margin: 0px;
+    border-style: solid;
+    border-color: white;   
+    }
 
   .buttonContainer {
     display: flex;
