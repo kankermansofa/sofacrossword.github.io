@@ -91,3 +91,13 @@ body {background-color: #1e1e1e;}
     text-align: center;
     color: rgb(255, 255, 255);
 }
+
+@media (min-width: 320px) and (max-width: 999px) {
+  .square-input,
+  .blocked-input {
+    width: 50px;
+    height: 50px;
+  }
+  
+
+}
