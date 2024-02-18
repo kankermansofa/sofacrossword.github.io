@@ -4,8 +4,6 @@ body {background-color: #1e1e1e;}
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    margin-bottom: 0px; /* Adjust the margin-bottom as needed */
   }
 
 .custom-heading {
@@ -20,6 +18,9 @@ body {background-color: #1e1e1e;}
     height: 100px; 
     box-sizing: border-box; 
     background-color: #ffcc00;
+    margin: 1px;
+    border: none;
+    transition-duration: 0.4s;
 
     /* Font */
     font: 3em Helvetica;
@@ -28,9 +29,41 @@ body {background-color: #1e1e1e;}
     color: #333333;
   }
 
+  .square-input:hover {
+    background-color: #ffe479;
+  }
+
   .blocked-input {
     width: 100px; 
     height: 100px; 
     box-sizing: border-box; 
     background-color: #272727;
+    margin: 1px;
+    border: none;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+  }
+
+  .button {
+    background-color: #ffcc00; 
+    border: none;
+    color: #333333;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover{
+    background-color: #ffe479;
   }
