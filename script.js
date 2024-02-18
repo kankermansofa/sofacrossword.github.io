@@ -1,15 +1,15 @@
 const rowAns = ["bust", "tiran", "ukart", "cela", "or"];
 
-row1 = "";
-row2 = "";
-row3 = "";
-row4 = "";
-row5 = "";
-
 submit = document.getElementById("submit");
 reset = document.getElementById("reset");
 
 submit.onclick = function(){
+    let row1 = "";
+    let row2 = "";
+    let row3 = "";
+    let row4 = "";
+    let row5 = "";
+
     for (i = 0; i < 5; i++){
         row1 += document.getElementById("0" + String(i)).value.toLowerCase();
     }   
@@ -26,7 +26,7 @@ submit.onclick = function(){
         row5 += document.getElementById("4" + String(i)).value.toLowerCase();
     }
 
-    if (row1 == "" || row2 == "" || row3 == "" || row4 == "" || row5 == ""){
+    if (row1 == "" || row2 == "" || row3 == "" || row4 == "" || row5 == "" ){
         alert("Please fill in every square!");
     }
     else if (row1 == rowAns[0] && row2 == rowAns[1] && row3 == rowAns[2] && row4 == rowAns[3] && row5 == rowAns[4]){
