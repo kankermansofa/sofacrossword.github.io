@@ -1,0 +1,43 @@
+body {
+    background-color: #1e1e1e;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0 0;
+    overflow: hidden;
+    background-color: #1e1e1e;
+    text-align: center; 
+}
+
+li {
+    display: inline-block; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.centered-image {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 0 0;
+    height: 10vh;
+}
+
+.centered-image img {
+    max-width: 100%;
+    max-height: 100%;
+}

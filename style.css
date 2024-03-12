@@ -6,13 +6,6 @@ body {background-color: #1e1e1e;}
     align-items: center;
   }
 
-.custom-heading {
-    font: 1.7em Helvetica;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(255, 204, 0);
-}
-
 .square-input {
     width: 100px; 
     height: 100px; 
@@ -90,6 +83,33 @@ body {background-color: #1e1e1e;}
     font-weight: bold;
     text-align: center;
     color: rgb(255, 255, 255);
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 0 20px;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  text-align: center; 
+}
+
+li {
+  display: inline-block; 
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 @media (min-width: 320px) and (max-width: 999px) {
