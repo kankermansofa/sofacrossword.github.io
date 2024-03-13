@@ -1,18 +1,35 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="mainstyle.css">
-
-        <title>Kankermansofa</title>
-    </head>
-    <body>
-        <div class="centered-image">
-            <img src="imgs/title.png" alt="title" id="titleimg">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mainstyle.css">
+    <title>Kankermansofa</title>
+    <script src="signin.js" defer></script>
+</head>
+<body>
+    <div class="centered-image">
+        <img src="imgs/title.png" alt="title" id="titleimg">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="index.html">Crossword</a></li>
+        </ul>
+        <div class="container">
+            <p class="top-right-paragraph" id="welcomemsg">Welcome Guest!</p>
         </div>
-        <nav>
-            <ul>
-                <li><a href="main.html">Home</a></li>
-                <li><a href="index.html">Crossword</a></li>
-            </ul>
-        </nav>
-    </body>
+    </nav>
+
+    <div class="main-signin" id="signintable">
+        <div class="main-signin__head">
+            <p>SIGN IN</p>
+        </div>
+        <div class="main-signin__middle">
+            <div class="middle__form">
+                <input type="text" placeholder="Username" id="username">
+                <input type="password" placeholder="Password" id="password">
+                <input type="submit" value="Continue" id="submit-button">
+            </div>
+        </div>            
+    </div>
+</body>
 </html>

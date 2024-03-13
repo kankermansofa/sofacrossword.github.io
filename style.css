@@ -112,6 +112,20 @@ li a:hover {
   background-color: #111;
 }
 
+.container {
+  position: relative;
+  width: 100%; 
+}
+
+.top-right-paragraph {
+  position: absolute;
+  bottom: 0; 
+  right: 0; 
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 40px; 
+}
+
 @media (min-width: 320px) and (max-width: 999px) {
   .square-input,
   .blocked-input {
